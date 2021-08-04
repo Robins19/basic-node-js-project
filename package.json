@@ -1,0 +1,25 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "node js basics",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon App.js"
+  },
+  "author": "robins singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.16",
+    "morgan": "^1.10.0",
+    "newrelic": "^8.0.0",
+    "nodemon": "^2.0.6",
+    "uuid": "^8.3.1"
+  }
+}
